@@ -4,4 +4,9 @@
 ## 주문 시스템
 페이지에서 주문 정보를 입력하고 전송 버튼을 클릭하면 Trello의 지정된 Board에 카드가 추가됩니다. 주점 운영자들은 Trello Board를 이용해서 주문 내역을 간편하게 관리할 수 있습니다.
 
-![image](https://user-images.githubusercontent.com/42922453/57215862-23e9b680-7029-11e9-9235-c28b5ef17238.png)
+<img src="https://user-images.githubusercontent.com/42922453/57215862-23e9b680-7029-11e9-9235-c28b5ef17238.png" height="600px">
+
+## Todo
+- [ ] 주류 수량 입력받기
+- [ ] 주문 보내기 버튼에 카드 등록 연결하기
+- [ ] 체크박스 클릭 시 총 가격 업데이트 하기
