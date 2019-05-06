@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact V1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body>
+
+<div class="contact1">
+    <div class="container-contact1">
+        <div class="contact1-pic js-tilt" data-tilt>
+            <img src="images/img-01.png" alt="IMG">
+        </div>
+
+        <form class="contact1-form validate-form">
+				<span class="contact1-form-title">
+					다솜 주점 주문하기
+				</span>
+
+            <div class="wrap-input1 validate-input" data-validate="Name is required">
+                <div class="item">
+                    <label for="table" class="bold">테이블 번호를 입력해주세요 :)</label>
+                    <input class="input1" type="number" id="table" placeholder="숫자만 입력 가능합니다.">
+                </div>
+                <div class="item food">
+                    <div class="menu-subtitle">안주류</div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_1" value="소세지 야채볶음">
+                        <label class="checkbox-label" for="chk_info_1">소세지 야채볶음</label>
+                        <span class="checkbox-price">5,000원</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_2" value="sdf">
+                        <label class="checkbox-label" for="chk_info_2">다른 메뉴</label>
+                        <span class="checkbox-price">5,000원</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_3" value="소세지 야채볶음">
+                        <label class="checkbox-label" for="chk_info_3">생각이 안나</label>
+                        <span class="checkbox-price">7,000원</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_4" value="소세지 야채볶음">
+                        <label class="checkbox-label" for="chk_info_4">이게 마지막 메뉴다</label>
+                        <span class="checkbox-price">5,000원</span>
+                    </div>
+                </div>
+                <div class="item food">
+                    <div class="menu-subtitle">주류</div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_5" value="소세지 야채볶음">
+                        <label class="checkbox-label" for="chk_info_5">참이슬</label>
+                        <span class="checkbox-price">3,000원</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="chk_info_6" value="sdf">
+                        <label class="checkbox-label" for="chk_info_6">맥주</label>
+                        <span class="checkbox-price">3,000원</span>
+                    </div>
+                </div>
+                <div class="item total-price">
+                    <label>총 가격</label>
+                    <span>0원</span>
+                </div>
+                <div class="item">
+                    <label class="bold">결제방법을 선택해주세요 :)</label>
+                    <div>
+                        <span class="radio-item">
+                            <input type="radio" id="radio-toss" name="fruit" checked="checked" value="토스"/>
+                            <label for="radio-toss">토스로 보내기</label>
+                        </span>
+                        <span class="radio-item">
+                            <input type="radio" id="radio-cash" name="fruit" checked="checked" value="현금"/>
+                            <label for="radio-cash">현금 결제하기</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn">
+						<span>
+							주문 보내기
+						</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/bootstrap/js/popper.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/tilt/tilt.jquery.min.js"></script>
+<script>
+    $('.js-tilt').tilt({
+        scale: 1.1
+    })
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://api.trello.com/1/client.js?key=aaf0ee4f2e621e6bf22ca929ccf504bb"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
