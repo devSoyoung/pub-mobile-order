@@ -6,6 +6,11 @@
 
 <img src="https://user-images.githubusercontent.com/42922453/57215862-23e9b680-7029-11e9-9235-c28b5ef17238.png" height="600px">
 
+## 트렐로 보드 관리
+![image](https://user-images.githubusercontent.com/42922453/57442416-eaae8200-7286-11e9-9ee3-b257b0a35cba.png)
+
+트렐로 보드의 제일 앞 목록에 자동으로 카드가 추가되며, 관리자는 카드 위치를 수정해서 전체 주문 시스템을 관리할 수 있습니다.
+
 ## Todo
 - [ ] 주류 수량 입력받기
 - [ ] 주문 보내기 버튼에 카드 등록 연결하기
